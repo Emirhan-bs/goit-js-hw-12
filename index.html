@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/goit-js-hw-12/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla App Template</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/izitoast/dist/css/iziToast.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.14.1/simple-lightbox.min.css"
+    />
+    <script type="module" crossorigin src="/goit-js-hw-12/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-12/assets/vendor-DceEIEvX.js">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-12/assets/vendor-CWKLx11g.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-12/assets/styles-DrToC9Vl.css">
+  </head>
+  <body>
+    <form id="search-form">
+      <input
+        class="input"
+        type="text"
+        name="searchQuery"
+        placeholder="  Search images..."
+        required
+      />
+      <button class="form-button" type="submit">Search</button>
+    </form>
+    <div class="loader hidden" id="loader">
+      <span class="loader-text">Loading image, please wait...</span>
+    </div>
+    <ul class="gallery" id="gallery"></ul>
+    <div class="load-more-btn-div">
+      <button id="load-more-btn" class="hidden">Load more</button>
+    </div>
+
+  </body>
+</html>
